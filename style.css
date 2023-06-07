@@ -1,3 +1,62 @@
-#main-page{
-    background-color: #F0F8F8;
+:root{
+    /* Fontes */
+    --main-font: 'Outfit', sans-serif;
+    --footer-font: 'Lato', sans-serif;
+
+    /* Cores */
+    --background: #F0F8F8;
+    --blue: #55BDB3;
+    --dark-blue: #0F2435;
+    --gray: #C4C4C4;
+    --color-services-01: #267BFF;
+    --color-services-02: #21DAFF;
+    --color-services-03: #FF834B;
+    --color-services-04: #FF9318;
+    --color-services-05: #5252FF;
+    --color-services-06: #E72AFF;
+    --calc--border: #BDBDBD;
+    --letter-color01: #333333;
+    --letter-color02: #888580;
+    --letter-color03: #C4C4C4;
+    --letter-color04: #CCCCCC;
+    --bluish-black: #130F26;
+    --reasons-background01: #ECF3FE;
+    --reasons-background02: #FEF8E6;
+    --reasons-background03: #F1F1FB;
+    --reasons-background04: #FDF4F0;
+    --process-background01: #C1FFFF;
+    --process-background02: #B7FFE4;
+    --process-background03: #BBD5FF;
+    --process-background04: #FCBFA3;
+    --process-background04: #BEBEFF;
+    --help--background: #E9F3FE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+
+.style-font-value{
+    color: var(--letter-color01);
+    font-size: 16px;
+}
+
+.style-select{
+    height: 44px;
+    width: 368px;
+    overflow: hidden;
+    background: url(assets/down-small-arrow.svg) no-repeat right;
+    border: 1px var(--calc--border) solid;
+    border-radius: 8px;
+}
+
+.style-select select{
+    height: 44px;
+    width: 368px;
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,30 +17,40 @@
     <title>Landing Page Design</title>
 </head>
 <body>
-    <section id="main-page">
+
+    <!----Início página principal do website---->
+    <section id="home">
+        <!----Header para Display---->
         <header>
+            <!----Início navegação---->
             <nav>
                 <h1>logo</h1>
+                <!----Lista de atalhos para partes do site---->
                 <ul>
-                    <li>Home</li>
-                    <li>Our Services</li>
-                    <li>Our Process</li>
-                    <li>Why Choose Us</li>
+                    <li><a href="#">Home</a></li><!----direciona para home do website---->
+                    <li><a href="#">Our Services</a></li><!----direciona para services do website---->
+                    <li><a href="#">Our Process</a></li><!----direciona para process do website---->
+                    <li><a href="#">Why Choose Us</a></li><!----direciona para why choose us do website---->
                 </ul>
                 <button>Order Now</button>
                 <button>Login</button>
             </nav>
+            <!----Fim navegação---->
         </header>
-
-        <main>
-            <div class="main-content">
-                <h1></h1>
-                <p></p>
+        <!----Início conteúdo---->
+        <main class="contents-home">
+            <div class="main-contents">
+                <h1><span>WE PROVIDE</span><br>ACTION-PROVOKING</h1>
+                <h2>TO HELP YOU GROW AUDIENCE</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam facere architecto obcaecati ad recusandae est aliquid omnis at nulla.</p>
             </div>
+            <!----Botões home---->
             <div class="contact-buttons">
-                <button></button>
-                <button></button>
+                <button>Free Proposal</button>
+                <button>Chat Now</button>
             </div>
+
+            <!----Início tabela de especificações---->
             <div class="specification">
                 <div class="specification-items">
                     <img src="assets/check.svg">
@@ -71,16 +81,21 @@
                     <img src="assets/check.svg">
                     <span>Plagiarism Free Content</span>
                 </div>
+                <!----Fim tabela de especificações---->
             </div>
         </main>
+        <!----Fim página principal do website---->
     </section>
+    <!----Início tabela de marcas---->
     <div class="logos">
         <span>Powered by :</span>
         <img src="assets/logo-linkedin.svg">
         <img src="assets/logo-facebook.svg">
         <img src="assets/logo-google.svg">
         <img src="assets/logo-nike.svg">
+        <!----Fim tabela de marcas---->
     </div>
+    <!----Início página services---->
     <section id="services">
         <h1>Our Services and Prices</h1>
         <p>ContentAlpha offers optimal solutions at affordable rates for every content need. Understanding your requirements and generating results that satisfy you is our core mission. With us, you will be able to get the maximum possible ROI.</p>
@@ -120,29 +135,108 @@
             <h1>Ebook Writing</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, excepturi ad!</p>
         </div>
-    </section>
-    <section id="calculate">
-        <h1>Calculate Your Price</h1>
-        <section>
-            <form action="#" id="calculate-form">
-                <label for="">Service Type</label>
-                <select id="calculate-form">
-                    <option value="writing">Writing</option>
-                </select>
+        <!----Início e display tabela de calculo---->
+        <section id="calculate">
+            <h1>Calculate Your Price</h1>
+            <section class="display-calc">
+                <form action="#" id="calculate-form">
 
-                <label for="">Quantity</label>
-                <input type="number">
+                    <label for="services">Service Type</label>
+                    <div class="style-select">
+                        <select class="style-font-value" id="calculate-form services">
+                            <option value="writing">Writing</option>
+                        </select>
+                    </div>
+                    <label for="">Quantity</label>
+                    <input class="style-font-value" type="number" value="100">
+    
+                    <label for="">Due Date</label>
+                    <input class="style-font-value" type="date">
+    
+                    <label for="">Words</label>
+                    <input class="style-font-value" type="number" value="300">
 
-                <label for="">Due Date</label>
-                <input type="date">
-
-                <label for="">Words</label>
-                <input type="number">
-
-                <label for="">Quality</label>
-                <input type="text">
-            </form>
+                    <label for="quality">Quality</label>
+                    <div class="style-select">
+                        <select class="style-font-value" id="calculate-form quality">
+                            <option value="Experts">Experts</option>
+                        </select>
+                    </div>
+                </form>
+                <h1>$11.7</h1>
+                <hr>
+                <button>Order Now</button>
+            </section>
+            <!----Fim tabela de calculo---->
         </section>
+        <section id="contents-banner">
+            <div class="content-box">
+                <h1>Get your content needs catered and boost your business with this amazing discount of 20%.</h1>
+                <div class="content-box-buttons">
+                    <button>Free Proposal</button>
+                    <button>Chat Now</button>
+                </div>
+            </div>
+        </section>
+        <!----Fim página services---->
+    </section>
+    <!----Início página reasons---->
+    <section id="reasons">
+        <h1>Reasons We Are No. 1</h1>
+        <p>Customer satisfaction is our priority, and we ensure to deliver what we promise. Let us align our innovative ideas and strategies to your needs to generate unique and powerful results.</p>
+        <section class="content-box-options">
+
+            <div class="options-items color01">
+                <img src="assets/clipboard.svg">
+                <span>Custom Content</span>
+            </div>
+
+            <div class="options-items color02">
+                <img src="assets/small-pencil.svg">
+                <span>Complete Research</span>
+            </div>
+
+            <div class="options-items color02">
+                <img src="assets/star.svg">
+                <span>Quality Assured</span>
+            </div>
+
+            <div class="options-items color03">
+                <img src="assets/arrows.svg">
+                <span>Fastest Delivery</span>
+            </div>
+
+            <div class="options-items">
+                <img src="assets/lamp.svg">
+                <span>SEO Optimized</span>
+            </div>
+
+            <div class="options-items color01">
+                <img src="assets/checkbox.svg">
+                <span>24/7 Support</span>
+            </div>
+
+            <div class="options-items color02">
+                <img src="assets/pencil.svg">
+                <span>Dedicated Writers</span>
+            </div>
+
+            <div class="options-items color04">
+                <img src="assets/group-of-arrows.svg">
+                <span>Satisfaction</span>
+            </div>
+
+            <div class="options-items color01">
+                <img src="assets/arrows.svg">
+                <span>Flexible Revision</span>
+            </div>
+
+            <div class="options-items color02">
+                <img src="assets/star.svg">
+                <span>Money Back Guarantee</span>
+            </div>
+        </section>
+        <!----Fim página reasons---->
     </section>
 </body>
 </html>
