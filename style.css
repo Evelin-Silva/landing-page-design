@@ -1,35 +1,15 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
 :root{
     /* Fontes */
     --main-font: 'Outfit', sans-serif;
-    --footer-font: 'Lato', sans-serif;
 
     /* Cores */
-    --background: #F0F8F8;
-    --blue: #55BDB3;
-    --dark-blue: #0F2435;
-    --gray: #C4C4C4;
-    --color-services-01: #267BFF;
-    --color-services-02: #21DAFF;
-    --color-services-03: #FF834B;
-    --color-services-04: #FF9318;
-    --color-services-05: #5252FF;
-    --color-services-06: #E72AFF;
-    --calc--border: #BDBDBD;
-    --letter-color01: #333333;
-    --letter-color02: #888580;
-    --letter-color03: #C4C4C4;
-    --letter-color04: #CCCCCC;
-    --bluish-black: #130F26;
-    --reasons-background01: #ECF3FE;
-    --reasons-background02: #FEF8E6;
-    --reasons-background03: #F1F1FB;
-    --reasons-background04: #FDF4F0;
-    --process-background01: #C1FFFF;
-    --process-background02: #B7FFE4;
-    --process-background03: #BBD5FF;
-    --process-background04: #FCBFA3;
-    --process-background04: #BEBEFF;
-    --help--background: #E9F3FE;
+    --background: #F3EFE0;
+    --blue: #48A9A6;
+    --black-background-hover: #272838;
+    --nav-text02: #907F9F;
 }
 
 *{
@@ -39,24 +19,80 @@
     font-family: var(--main-font);
 }
 
-.style-font-value{
-    color: var(--letter-color01);
-    font-size: 16px;
+body{
+    background-color: var(--background);
 }
 
-.style-select{
-    height: 44px;
-    width: 368px;
-    overflow: hidden;
-    background: url(assets/down-small-arrow.svg) no-repeat right;
-    border: 1px var(--calc--border) solid;
-    border-radius: 8px;
+nav{
+    background-color: var(--nav-text02);
+    margin: 30px auto;
+    padding: 20px 40px 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
 }
 
-.style-select select{
-    height: 44px;
-    width: 368px;
+button{
+    width: 125px;
+    padding: 20px;
     border: none;
-    background: transparent;
-    -webkit-appearance: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main{
+    padding: 60px 140px;
+}
+
+span{
+    color: var(--nav-text02);
+}
+
+nav > h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+    margin-right: 400px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: var(--black-background-hover);
+}
+
+nav button{
+    color: var(--black-background-hover);
+    background-color: var(--background);
+}
+
+nav button:nth-child(3){
+    margin-right: 10px;
+    background-color: var(--black-background-hover);
+    color: var(--nav-text02);
+    transition: 0.3s;
+}
+
+nav button:nth-child(3):hover{
+    margin-right: 10px;
+    background-color: var(--background);
+    color: var(--black-background-hover);
+}
+
+.main-content{
+    width: 400px;
+    text-align: justify;
 }
