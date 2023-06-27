@@ -33,13 +33,12 @@
 ## Código por:
 
 <p style="width: fit-content;
-    display: flex;
-    flex-direction: column;
+    display: block;
     text-align: center;
     gap: 5px;
     margin: auto;">
     <img src="https://github.com/Evelin-Silva.png" style="height: 100px;
-    border: solid white 1px;
+    border: 1px white solid;
     border-radius: 50%;">
     <span>Evelin Silva</span>
 </p>
