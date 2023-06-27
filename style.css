@@ -8,8 +8,8 @@
     /* Cores */
     --background: #F3EFE0;
     --blue: #48A9A6;
-    --black-background-hover: #272838;
-    --nav-text02: #907F9F;
+    --dark-purple: #272838;
+    --purple: #907F9F;
 }
 
 *{
@@ -24,13 +24,17 @@ body{
 }
 
 nav{
-    background-color: var(--nav-text02);
+    background-color: var(--purple);
     margin: 30px auto;
-    padding: 20px 40px 20px 20px;
+    padding: 10px 40px 10px 20px;
     border-radius: 10px;
     display: flex;
     width: fit-content;
     align-items: center;
+}
+
+ul{
+    list-style: none;
 }
 
 button{
@@ -43,11 +47,25 @@ button{
 }
 
 main{
-    padding: 60px 140px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 0 140px;
 }
 
 span{
-    color: var(--nav-text02);
+    color: var(--purple);
+}
+
+aside{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 5px 40px;
+    margin: 80px auto 0 auto;
 }
 
 nav > h1{
@@ -58,7 +76,6 @@ nav > h1{
 }
 
 nav ul{
-    list-style: none;
     display: flex;
 }
 
@@ -71,28 +88,96 @@ a{
 }
 
 a:hover{
-    color: var(--black-background-hover);
+    color: var(--dark-purple);
 }
 
 nav button{
-    color: var(--black-background-hover);
-    background-color: var(--background);
+    color: var(--background);
 }
 
 nav button:nth-child(3){
     margin-right: 10px;
-    background-color: var(--black-background-hover);
-    color: var(--nav-text02);
+    background-color: var(--dark-purple);
     transition: 0.3s;
 }
 
 nav button:nth-child(3):hover{
-    margin-right: 10px;
     background-color: var(--background);
-    color: var(--black-background-hover);
+    color: var(--dark-purple);
 }
 
-.main-content{
+nav button:nth-child(4){
+    background: transparent;
+    border: 2px var(--background) solid;
+    transition: 0.3s;
+}
+
+nav button:nth-child(4):hover{
+    border: 2px var(--dark-purple) solid;
+    color: var(--dark-purple);
+}
+
+div.main-content{
     width: 400px;
     text-align: justify;
+    color: var(--dark-purple);
+}
+
+div.main-content h1{
+    margin-bottom: 5px;
+}
+
+div.main-content h2{
+    margin-bottom: 10px;
+}
+
+div.main-content button{
+    margin-top: 60px;
+}
+
+div.main-content button:nth-child(4){
+    background-color: var(--dark-purple);
+    color: var(--background);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+div.main-content button:nth-child(4):hover{
+    background-color: var(--purple);
+}
+
+div.main-content button:nth-child(5){
+    background: transparent;
+    color: var(--purple);
+    border: 2px var(--purple) solid;
+    transition: 0.3s;
+}
+
+div.main-content button:nth-child(5):hover{
+    border: 2px var(--dark-purple) solid;
+    color: var(--dark-purple);
+}
+
+div.quality{
+    background-color: var(--dark-purple);
+    color: var(--background);
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 150px 300px 0 0;
+}
+
+div.quality ul{
+    columns: 2;
+    line-height: 40px;
+}
+
+div.quality li{
+    display: flex;
+    gap: 10px;
+}
+
+aside span{
+    color: var(--dark-purple);
 }

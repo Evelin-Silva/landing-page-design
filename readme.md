@@ -1,12 +1,45 @@
-<a href="https://www.flaticon.com/br/icones-gratis/digital" title="digital ícones">Digital ícones criados por Eucalyp - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/entrega" title="entrega ícones">Entrega ícones criados por Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/foguete" title="foguete ícones">Foguete ícones criados por Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/prancheta" title="prancheta ícones">Prancheta ícones criados por Flat Icons - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/satisfacao-do-cliente" title="satisfação do cliente ícones">Satisfação do cliente ícones criados por Smashicons - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/pdf" title="pdf ícones">Pdf ícones criados por Roman Káčerek - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/facebook" title="facebook ícones">Facebook ícones criados por Pixel perfect - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/twitter" title="twitter ícones">Twitter ícones criados por Pixel perfect - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/o-email" title="o email ícones">O email ícones criados por Pixel perfect - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/setas" title="setas ícones">Setas ícones criados por Pixel perfect - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/telefone" title="telefone ícones">Telefone ícones criados por Vector Stall - Flaticon</a>
+## Hey Dev! 😄
+
+### 🏗️ Projeto:
+
+> landing-page-design.
+
+#### 🎃 Prévia:
+
+![previa](./preview/preview-landing-page-design.jpeg)
+
+### 🎯 Objetivo:
+
+> Tive como objetivo melhorar as habilidades com HTML5 e CSS3.
+
+#### ✏️ Descrição:
+
+> Projeto original no Figma, pelo criador Qasim Abbasi (@qasimabbasi);
+
+> Créditos ao criador no final desse readme ✨
+
+#### ⚙️ Tecnologias usadas:
+
+> HTML5;
+
+> CSS3;
+
+#### O projeto original:
+
+[🎨 Figma](https://www.figma.com/community/file/1246314386491240301/Landing-Page-Design)
+
+[👨‍💻 Perfil do criador](https://www.figma.com/@qasimabbasi)
+
+## Código por:
+
+<p style="width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    margin: auto;">
+    <img src="https://github.com/Evelin-Silva.png" style="height: 100px;
+    border: solid white 1px;
+    border-radius: 50%;">
+    <span>Evelin Silva</span>
+</p>
