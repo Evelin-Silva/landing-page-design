@@ -4,6 +4,10 @@
 
 > landing-page-design.
 
+### 🔗 Acesso ao projeto:
+
+[Acesse aqui](https://evelin-silva.github.io/landing-page-design/home.html)
+
 #### 🎃 Prévia:
 
 ![previa](./preview/preview-landing-page-design.jpeg)
